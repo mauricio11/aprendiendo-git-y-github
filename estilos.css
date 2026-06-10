@@ -1,0 +1,19 @@
+span{
+    color: red;
+    font-style: oblique;
+}
+
+.enfasis{
+    color: darkgreen;
+}
+
+li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.nav-basica, .subir-proyecto, .inicio-git, .practica{
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo Git y GitHub</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="caja1">
+        <h2 class="nav-basica">#1 Navegacion basica</h2>
+    <ul>
+        <li> <span>"pwd"</span> = te indica donde estas.</li>
+        <li> <span>"ls"</span> = lista de archivos.</li>
+        <li><span>"cd" nombre_carpetas</span> = entra en una carpeta.</li>
+        <li><span>"cd .."</span> = volver atras.</li>
+        <li><span>"mkdir" (Nombre del proyecto) </span> = crear carpeta dentro de VSCode.</li>
+        <li><span>"code ." </span> = abrir VS code en esa carpeta.</li>
+    </ul>
+    </div>
+    
+    <div class="caja2">
+        <h2 class="inicio-git">#2 Empezar Git desde cero</h2>
+    <ul>
+        <li><span>"git --version"</span> = Ver si Git esta instalado.</li>
+        <li><span>"git config --global user.name *TuNombre*"</span> = Esta configuracion inicial se hace una vez (OBLIGATORIO).</li>
+        <li><span>"git config --global user.email *tuemail@gmail.com*"</span> = Esta configuracion inicial se hace una vez (OBLIGATORIO).</li>
+        <li><span>"git init"</span> = Convierte la carpeta proyecto en proyecto Git, creando tu primer <span class="enfasis">repositorio.</span></li>
+        <li><span>"git status"</span> = Ver el estado del proyecto, te dice que archivos han cambiado.</li>
+        <li><span>"git add ."</span> = Añades todos los archivos a la nube.</li>
+        <li><span>"git add archivo.txt" </span> = Añade un archivo especifico a la nube.</li>
+        <li><span>"git comit -m "primer comit" " </span> = Guarda cambio con un mensaje agregado.</li>
+    </ul>
+    </div>
+
+    <div class="caja3">
+        <h2 class="subir-proyecto">#3 GitHub para subir proyector</h2>
+        <p>*Primero creas un repositorio en GitHub (desde la web)*</p>
+        <ul>
+            <li><span>"git remote add origin https://github.com/usuario/repo.git"</span> = Añade la URL del repositorio creado para enlazarlos.</li>
+            <li><span>"git push -u origin main"</span> = Se utiliza para subir los cambios.</li>
+            <li><span>"git push -u origin master"</span> = hace lo mismo del anterior pero con una rama diferente.</li>
+            <li><span>"git pull"</span> = Trae los cambio del repositorio.</li>
+        </ul>
+    </div>
+
+    <div class="caja4">
+        <h2 class="practica">#4 Practica haciendo tu primer proyecto</h2>
+        <ol>
+            <p>Crear carpeta.</p>
+            <li class="codigo"><span>mkdir</span> mi_primer_git</li>
+            <p>Entrar en carperta.</p>
+            <li class="codigo"><span>cd</span> mi_primer_git</li>
+            <p>Inicializa Git.</p>
+            <li class="codigo"><span>git</span> init</li>
+            <p>Crea tu primer archivo en tu programa favorito.</p>
+            <li class="codigo"><span>echo</span> "hola mundo" > index.txt</li>
+            <p>Cambia la rama en en principal para enlazarla en GitHub.</p>
+            <li class="codigo"><span>git </span>branch -m main</li>
+            <p>Añadelo en el repositorio.</p>
+            <li class="codigo"><span>git</span> add .</li>
+            <p>Guardalo en la nube con texto informativo</p>
+            <li class="codigo"><span>git</span> commit -m "primer commit"</li>
+        </ol>
+        <a href=""><button>Siguiente</button></a>
+        <footer> Mauricio Rodriguez 2026 </footer>
+    </div>
+
+</body>
+</html>
