@@ -1,19 +1,28 @@
+/* SPANES */
 span{
     color: red;
     font-style: oblique;
 }
 
+/* PALABRAS CLAVE DENTRO DEL SPAN */
 .enfasis{
     color: darkgreen;
 }
 
+
+/* LISTAS */
 li{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
 }
 
-.nav-basica, .subir-proyecto, .inicio-git, .practica{
+/* TITULOS */
+.nav-basica, .subir-proyecto, .inicio-git, .practica, .historialcommit, .diferencias, .repoRemoto{
     color: aqua;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* CAJAS */
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7{
+    border: 2px black solid;
+}
