@@ -17,12 +17,12 @@ li{
 }
 
 /* TITULOS */
-.nav-basica, .subir-proyecto, .inicio-git, .practica, .historialcommit, .diferencias, .repoRemoto{
+.nav-basica, .subir-proyecto, .inicio-git, .practica, .historialcommit, .diferencias, .repoRemoto, .cambioURLdeRepos{
     color: aqua;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* CAJAS */
-.caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7{
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8{
     border: 2px black solid;
 }
